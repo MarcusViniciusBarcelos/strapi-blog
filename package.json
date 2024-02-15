@@ -7,13 +7,16 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postinstall": "cd plugins/wysiwyg && npm i"
   },
   "dependencies": {
+    "@strapi/design-system": "^1.14.1",
     "@strapi/plugin-i18n": "4.14.6",
     "@strapi/plugin-users-permissions": "4.14.6",
     "@strapi/provider-upload-cloudinary": "^4.15.0",
     "@strapi/strapi": "4.14.6",
+    "axios": "^1.6.7",
     "mongodb": "^6.3.0",
     "pg": "8.8.0",
     "strapi-plugin-populate-deep": "^3.0.1"
