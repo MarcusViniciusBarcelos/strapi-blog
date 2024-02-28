@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+<<<<<<< HEAD
+    "displayName": "setting",
+    "description": ""
+=======
+    "displayName": "setting"
+>>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blogName": {
+      "type": "string",
+      "required": true
+    },
+    "blogDescription": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+<<<<<<< HEAD
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+=======
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+>>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
+    },
+    "menuLink": {
+      "displayName": "menuLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link"
+    },
+<<<<<<< HEAD
+    "footer": {
+      "type": "string",
+=======
+    "text": {
+      "type": "blocks",
+>>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
+      "required": true
+    }
+  }
+}
