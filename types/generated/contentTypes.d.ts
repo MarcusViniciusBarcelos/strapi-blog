@@ -757,10 +757,7 @@ export interface ApiPostPost extends Schema.CollectionType {
     singularName: 'post';
     pluralName: 'posts';
     displayName: 'post';
-<<<<<<< HEAD
     description: '';
-=======
->>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
   };
   options: {
     draftAndPublish: true;
@@ -768,11 +765,7 @@ export interface ApiPostPost extends Schema.CollectionType {
   attributes: {
     title: Attribute.String & Attribute.Required;
     slug: Attribute.UID<'api::post.post', 'title'> & Attribute.Required;
-<<<<<<< HEAD
     cover: Attribute.Media & Attribute.Required;
-=======
-    cover: Attribute.Media;
->>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
     excerpt: Attribute.Text &
       Attribute.Required &
       Attribute.SetMinMaxLength<{
@@ -809,10 +802,7 @@ export interface ApiSettingSetting extends Schema.SingleType {
     singularName: 'setting';
     pluralName: 'settings';
     displayName: 'setting';
-<<<<<<< HEAD
     description: '';
-=======
->>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
   };
   options: {
     draftAndPublish: true;
@@ -822,11 +812,7 @@ export interface ApiSettingSetting extends Schema.SingleType {
     blogDescription: Attribute.String & Attribute.Required;
     logo: Attribute.Media;
     menuLink: Attribute.Component<'menu.menu-link', true>;
-<<<<<<< HEAD
     footer: Attribute.String & Attribute.Required;
-=======
-    text: Attribute.Blocks & Attribute.Required;
->>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

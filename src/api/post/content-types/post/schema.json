@@ -4,12 +4,8 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-<<<<<<< HEAD
     "displayName": "post",
     "description": ""
-=======
-    "displayName": "post"
->>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
   },
   "options": {
     "draftAndPublish": true
@@ -26,20 +22,13 @@
       "required": true
     },
     "cover": {
-<<<<<<< HEAD
+
       "type": "media",
       "multiple": false,
       "required": true,
       "allowedTypes": [
         "images"
       ]
-=======
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
->>>>>>> e5fce43c3ced7040a70899f4560152a30bb3df08
     },
     "excerpt": {
       "type": "text",
