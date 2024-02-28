@@ -23,13 +23,13 @@
       "required": true
     },
     "logo": {
-
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
       ]
+
     },
     "menuLink": {
       "displayName": "menuLink",
@@ -39,6 +39,7 @@
     },
     "footer": {
       "type": "string",
+
       "required": true
     }
   }

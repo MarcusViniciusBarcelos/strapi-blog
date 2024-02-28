@@ -757,7 +757,9 @@ export interface ApiPostPost extends Schema.CollectionType {
     singularName: 'post';
     pluralName: 'posts';
     displayName: 'post';
+
     description: '';
+
   };
   options: {
     draftAndPublish: true;
@@ -765,7 +767,9 @@ export interface ApiPostPost extends Schema.CollectionType {
   attributes: {
     title: Attribute.String & Attribute.Required;
     slug: Attribute.UID<'api::post.post', 'title'> & Attribute.Required;
+
     cover: Attribute.Media & Attribute.Required;
+
     excerpt: Attribute.Text &
       Attribute.Required &
       Attribute.SetMinMaxLength<{
@@ -802,7 +806,9 @@ export interface ApiSettingSetting extends Schema.SingleType {
     singularName: 'setting';
     pluralName: 'settings';
     displayName: 'setting';
+
     description: '';
+
   };
   options: {
     draftAndPublish: true;
@@ -812,7 +818,10 @@ export interface ApiSettingSetting extends Schema.SingleType {
     blogDescription: Attribute.String & Attribute.Required;
     logo: Attribute.Media;
     menuLink: Attribute.Component<'menu.menu-link', true>;
+
     footer: Attribute.String & Attribute.Required;
+
+
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
