@@ -22,7 +22,6 @@
       "required": true
     },
     "cover": {
-
       "type": "media",
       "multiple": false,
       "required": true,
